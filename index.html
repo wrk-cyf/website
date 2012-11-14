@@ -3,9 +3,10 @@
 		<title></title>
 		<style>
 		*{display:block}
-		td{background-color:#FF6600; text-align:center;}
-		.over{background-color:#999999;color:#000000;}
-		.title{width:1000px;height:130px;color:#FFFFFF;font-size:80px;}
+		td{text-align:center;background-color:#FF6600;color:#FFFFFF;}
+		td.inner{background-color:#FF6600;}
+		.over{background-color:#999999 !important;color:#000000 !important;}
+		.title{width:1000px;height:130px;font-size:80px;}
 		</style>
 		<script>
 		function over(ele)
@@ -21,16 +22,22 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	</head>
 	<body>
-		<font size="50"></font>
 		<table><tr>
 		<td class="title">ubuntu</td>
 		</tr></table>
+		by cyf &amp; wrk
 		<table>
 		<tr>
-		<td class="inner" width="130" height="130" onMouseOver="over(this)" onMouseOut="out(this)">130x130</td>
-		<td class="inner" width="260" height="130" onMouseOver="over(this)" onMouseOut="out(this)">130x260</td>
-		</tr>
 		
+		<td class="inner" width="130" height="130" onMouseOver="over(this)" onMouseOut="out(this)">
+		<a href="test1.html">130x130</a>
+		</td>
+		
+		<td class="inner" width="260" height="130" onMouseOver="over(this)" onMouseOut="out(this)">
+		<a href="test2.html">130x260</a>
+		</td>
+		
+		</tr>
 		</table>
 	</body>
 </html>
