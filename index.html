@@ -1,13 +1,13 @@
 ﻿<html>
 	<head>
-		<title></title>
 		<style>
-		*{display:block}
+		*{display:block;}
 		td{text-align:center;background-color:#FF6600;color:#FFFFFF;}
 		td.inner{background-color:#FF6600;}
 		.over{background-color:#999999 !important;color:#000000 !important;}
 		.title{width:1000px;height:130px;font-size:80px;}
 		</style>
+		
 		<script>
 		function over(ele)
 		{
@@ -16,15 +16,11 @@
 		
 		function out(ele)
 		{
-			ele.className=ele.className.replace(/\sover/,"")
-		}
-		function click(ele)
-		{
-			ele.innerHTML="<img src=\"loading.gif\" />"
+			ele.className=ele.className.replace(/\sover/,"");
 		}
 		</script>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-</head>
+	</head>
 	<body>
 		<table><tr>
 		<td class="title">ubuntu</td>
@@ -33,11 +29,11 @@
 		<table>
 		<tr>
 		
-		<a href="test1.html"><td class="inner" width="130" height="130" onMouseOver="over(this)" onMouseOut="out(this)" onClick="click(this)">
+		<a href="test1.html"><td class="inner" width="130" height="130" onMouseOver="over(this)" onMouseOut="out(this)">
 		130x130
 		</td></a>
 		
-		<a href="test2.html"><td class="inner" width="260" height="130" onMouseOver="over(this)" onMouseOut="out(this)" onClick="click(this)">
+		<a href="test2.html"><td class="inner" width="260" height="130" onMouseOver="over(this)" onMouseOut="out(this)">
 		130x260
 		</td></a>
 		
