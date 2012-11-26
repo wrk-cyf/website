@@ -1,5 +1,5 @@
-*{display:inline-block;}
-td{text-align:center;background-color:#FF6600;color:#FFFFFF;}
+td{text-align:center;background-color:#FF6600;color:#FFFFFF; font-size:36px}
 td.inner{background-color:#FF6600;}
 .over{background-color:#999999 !important;color:#000000 !important;}
 .title{width:1000px;height:130px;font-size:80px;}
+a{text-decoration:none}
