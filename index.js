@@ -12,5 +12,5 @@ function out(ele)
 }
 function clicked(ele,num)
 {
-	$(ele).next().toggle("slow");
+	$(ele).next().toggle();
 }
