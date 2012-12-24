@@ -1,8 +1,9 @@
-table{width:100%}
+body{margin-left:5%;}
+table{width:95%;}
 td{text-align:center;background-color:#CCCCCC;color:#000000;}
 td.inner{background-color:#CCCCCC; height:auto; font-size:36px}
 .over{background-color:#FF6600 !important;color:#FFFFFF !important;}
 .title{height:130px;font-size:80px;}
 a{text-decoration:none;}
 .block{display:block;}
-#logo{width:100%;}
+#logo{width:95%;}
