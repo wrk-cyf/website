@@ -1,5 +1,5 @@
 onload=function(){
-	$("tr.content").hide();
+	$("#body").accordion({header:"tr.header",collapsible: true,animated:false,event:"mouseover"});
 }
 function over(ele)
 {
@@ -9,8 +9,4 @@ function over(ele)
 function out(ele)
 {
 	ele.className=ele.className.replace(/\sover/,"");
-}
-function clicked(ele,num)
-{
-	$(ele).next().toggle();
 }
